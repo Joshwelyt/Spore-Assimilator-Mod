@@ -1,0 +1,9 @@
+name: biosteel
+description:
+  '''
+a metal used for factories and turrets
+  '''
+hardness: 10
+cost: 54.8
+color: 000000
+research: spore-pod
