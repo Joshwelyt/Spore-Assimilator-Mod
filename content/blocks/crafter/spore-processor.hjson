@@ -1,0 +1,32 @@
+type: GenericCrafter
+localizedName: spore biomass processor
+description: processes spore to make a more suitable spore infected metal used for making factories
+itemCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 200
+craftEffect: pulverizeRedder
+updateEffect: pulverizeRed
+consumes: {
+  power: 12
+  items: {
+    items: [
+      spore-pod/6
+      titanium/3
+    ]
+  }
+}
+requirements: [
+  thorium/80
+  titanium/40
+  copper/50
+  lead/50
+]
+drawer: drawWeave
+category: crafting
+research: phase-weaver
+ambientSound: message
+ambientSoundVolume: 0.5
+outputItem: biosteel/2
