@@ -1,0 +1,58 @@
+type: flying
+name: "locust"
+displayName: Locust
+description: '''
+A more tankier yet slower flare idk why it didnt cause more
+Materials what bruh manager -joshwel
+'''
+flying: true
+speed: 0.90
+health: 145
+aimDst: 10
+range: 30
+drag: 0.05
+accel: 0.50
+maxRange: 30
+buildSpeed: 0
+clipSize: 1
+faceTarget: true
+rotateShooting : true
+mineTier: 0
+mineSpeed: 0
+range: 30
+rotateSpeed: 7
+lowAltitude: true
+omniMovement: true
+canDrown: false
+payloadCapacity : 0
+weapons: [ 
+{
+ name: purplebullet
+ reload: 10
+ alternate: true
+ ejectEffect: casing2
+ top: false
+ shootSound: pew
+ x: 0.80
+ y: 3
+ rotate: false
+ bullet: {
+ frontColor: 9d03fc
+ backColor: 9d03fc
+ type: BasicBulletType
+ damage: 3
+ speed: 2
+ status: none
+ statusDuration: 0
+ width: 5
+ height: 5
+ lifetime: 50
+ knockback: 0
+ hitSound: none
+ healPercent: 0
+ collidesTeam: false
+}
+}]
+research: {
+parent: flare
+}
